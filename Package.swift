@@ -21,9 +21,9 @@ let package = Package(
         .target(
             name: "ReCaptcha",
             dependencies: [],
-            path: "ReCaptcha/Classes",
+            path: "ReCaptcha",
             resources: [
-                .copy("ReCaptcha/Assets/recaptcha.html")
+                .copy("Assets/recaptcha.html")
             ]),
     ]
 )
